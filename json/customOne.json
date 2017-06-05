@@ -1,0 +1,6 @@
+{
+  "chosenSnake": "img/snake",
+  "chosenApple": "img/diamond",
+  "chosenBackground": "white",
+  "difficulty": 100
+}

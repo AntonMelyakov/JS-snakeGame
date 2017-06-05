@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Canvas testing</title>
+    <link rel="stylesheet" href="js and css/main-css.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  </head>
+  <body>
+
+<div class="allMenus">
+  <div class="chooseMenu">
+    <span id="firstTitle">Choose your settings:</span>
+    <div class="menu">
+      <span>Chose your snake:</span>
+      <input type="radio" name="bodyChoose" value="img/snake">
+      <label for="greenBody"><img src="img/snake-chose.png" alt=""></label>
+
+      <input type="radio" name="bodyChoose" value="img/snake-2">
+      <label for="blackBody"><img src="img/snake2-chose.png" alt=""></label>
+    </div>
+    <div class="menu">
+      <span>Chose your goal:</span>
+      <input type="radio" name="appleChoose" value="img/coin1">
+      <label for="greenBody"><img src="img/coin-chose.png" alt="coin"></label>
+
+      <input type="radio" name="appleChoose" value="img/diamond">
+      <label for="greenBody"><img src="img/diamand-chose.png" alt="diamond"></label>
+    </div>
+    <div class="menu">
+      <span>Chose your background:</span>
+      <input type="radio" name="backgroundChoose" value="white">
+      <label for="greenBody"><img src="img/white-chose.png" alt=""></label>
+
+      <input type="radio" name="backgroundChoose" value="#add7ff">
+      <label for="greenBody"><img src="img/add7ff.png" alt=""></label>
+    </div>
+
+    <div class="menu">
+      <span>Chose dificulty:</span>
+      <input type="radio" name="difficultyChoose" value="200">
+      <label for="easy">EASY</label>
+
+      <input type="radio" name="difficultyChoose" value="150">
+      <label for="medium">MEDIUM</label>
+
+      <input type="radio" name="difficultyChoose" value="100">
+      <label for="hard">HARD</label>
+    </div>
+
+    <div id="clicked">CLICK</div>
+
+    <span class="jsonChooser">Or you can check our ready options: </span> <span class="jsonChooserText" id="one-json">ONE </span> <span class="jsonChooser">and</span> <span class="jsonChooserText" id="two-json">TWO</span>
+  </div>
+</div>
+
+<div class="game">
+</div>
+<div class="score-menu">
+  <span id="result"></span>
+  <span id="level"></span>
+</div>
+
+  <script type="text/javascript" src='js and css/canvas-js.js'></script>
+  <script type="text/javascript" src='js and css/index-js.js'></script>
+  </body>
+</html>
