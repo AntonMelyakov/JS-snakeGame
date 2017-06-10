@@ -97,7 +97,7 @@ function newGame(howFast, apple, snakeBody, backgroundColor) {
 
     function crashCheck(snake){
       //end of the canvas
-        if(snake[snake.length-1].x < 0 || snake[snake.length-1].y < 0 || snake[snake.length-1].x > canvas.width || snake[snake.length-1].y > canvas.height) {
+        if(snake[snake.length-1].x < 0 || snake[snake.length-1].y < 0 || snake[snake.length-1].x >= canvas.width || snake[snake.length-1].y >= canvas.height) {
           clearInterval(currentMovement);
           if (confirm("GAME OVER") == true) {
             location.reload();;
